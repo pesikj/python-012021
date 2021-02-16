@@ -1,6 +1,27 @@
-# Spolubydlící
+# Detektivky podruhé
 
-V[materiálech ke kurzu](http://nove.kodim.cz/czechitas/progr2-python/zaklady-programovani-2/slovniky-a-cykly) si najdi část označenou nadpisem " Čtení na doma". Projdi si text a části kódu, které jsou v kapitole.
+Vraťme se k software pro našeho nakladatele. Nakladatel má nyní v software dva slovníky,
+které obsahují informace o prodejích knih v letech 2019 a 2020.
 
-1. Do nového programu si zkopíruj slovník a části kódu, které jsou na webu. Dále si zkopíruj ostatní části kódu a spusť program, aby sis ověřila, že funguje.
-1. Uprav druhý cyklus tak, aby porovnal výdaje spolubydlícícho s průměrem a každému/každé z nich vypsal, kolik by měl doplatit nebo naopak dostat v rámci finančního vypořádání.
+Uvažuj, že uživatel se zajímá o prodeje konkrétní knihy. Zeptej se uživatele na název knihy a poté
+vypiš informaci o tom, kolik se této knihy celkem prodalo. Nezapomeň na to,
+že některé knihy byly prodávány pouze v jednom roce.
+
+```python
+
+prodeje2019 = {
+    "Zkus mě chytit": 4165,
+    "Vrah zavolá v deset": 5681,
+    "Zločinný steh": 2565,
+}
+
+prodeje2020 = {
+    "Zkus mě chytit": 3157,
+    "Vrah zavolá v deset": 3541,
+    "Vražda podle knihy": 2510,
+    "Past": 2364,
+    "Zločinný steh": 5412,
+    "Zkus mě chytit": 6671,
+}
+
+```
