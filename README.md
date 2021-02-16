@@ -6,7 +6,7 @@ který organizují Czechitas.
 Rozvrh a úkoly k jednotlivým lekcím najdeš zde:
 * [zadani/Lekce 1](zadani/1/lekce.md)
 
-## Přidání kouče do repozitáře
+# Přidání kouče do repozitáře
 
 Před práci na úkolech přidej svého kouče do repozitáře. To uděláš tak, že si otevřeš svůj repozitář
 na GitHubu, klikneš na `Settings`, poté na `Manage access` a tam na tlačítko `Invite a collaborator`.
@@ -17,7 +17,7 @@ Otevře se okno, do kterého zadej e-mail nebo přihlašovací jmého konkrétn�
 
 ![](images/0b.png)
 
-## Jak odevzdat domácí úkol
+# Jak odevzdat domácí úkol
 
 Níže najdeš návod, jak odevzdat domácí úkol.
 
@@ -62,7 +62,7 @@ V kontrolním okně, které se objeví, klini na `Push`.
 
 ![](images/8.png)
 
-### Informace o odevzdání úkolu
+# Informace o odevzdání úkolu
 
 Aby kouč o odevzdání úkolu věděl, vytvoř Issue a napiš mu, které úkoly
 máš hotové a chtěla bys je zkontrolovat. U repozitáře klikni na `Issues` a poté
@@ -84,7 +84,7 @@ kolečko u pole `Assignees` a vybereš daného kouče. Současně vyber i sebe, 
 
 ![](images/9d.png)
 
-### Oprava úkolu
+# Oprava úkolu
 
 Kouč nebo lektor ti zadá hodnocení úkolu jako  komentář k Issue. O přidání komentáře budeš informována mailem.
 V textu Issue uvidíš, které úkoly ti kouč uznal a ke kterým měl připomínku. Je-li zadaná připomínka,
