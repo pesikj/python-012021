@@ -6,18 +6,22 @@ který organizují Czechitas.
 Rozvrh a úkoly k jednotlivým lekcím najdeš zde:
 * [zadani/Lekce 1](zadani/1/lekce.md)
 
+## Přidání kouče do repozitáře
+
+Před práci na úkolech přidej svého kouče do repozitáře. To uděláš tak, že si otevřeš svůj repozitář
+na GitHubu, klikneš na `Settings`, poté na `Manage access` a tam na tlačítko `Invite a collaborator`.
+
+![](images/0.png)
+
+Otevře se okno, do kterého zadej e-mail nebo přihlašovací jmého konkrétního kouče nebo lektora.
+
+![](images/0b.png)
+
 ## Jak odevzdat domácí úkol
 
 Níže najdeš návod, jak odevzdat domácí úkol.
 
-V rámci přípravy na kurz bys již měla mít připravený repozitář `python-012021`. 
-Na svém disku bys také měla mít lokální kopii tohoto repozitáře.
-
-### Odevzdání úkolu
-
-V PyCharmu si otevři adresář `python-012021`.
-
-Vytvoř si nový adresář s číslem lekce.
+V rámci přípravy na kurz bys již měla mít připravený repozitář `python-012021`. Vytvoř si nový adresář s číslem lekce.
 
 ![](images/1.png)
 
@@ -58,18 +62,35 @@ V kontrolním okně, které se objeví, klini na `Push`.
 
 ![](images/8.png)
 
-### Oprava úkolu
+### Informace o odevzdání úkolu
 
-Kouč nebo lektor ti zadá hodnocení úkolu jako Issue. O vytvoření Issue budeš informována mailem.
-V textu Issue uvidíš, které úkoly ti kouč uznal a ke kterým měl připomínku. Je-li zadaná připomínka,
-bude pravděpodobně nutné program upravit.
+Aby kouč o odevzdání úkolu věděl, vytvoř Issue a napiš mu, které úkoly
+máš hotové a chtěla bys je zkontrolovat. U repozitáře klikni na `Issues` a poté
+vytvoř nové Issue pomocí tlačítka `New issue`.
 
-Pokud poznámce nerozumíš, napiš do pole níže komentář o tom, čemu nerozumíš a co potřebuješ vysvětlit.
+![](images/9b.png)
+
+Do Issue napiš, které úkol bys chtěla zkontrolovat. Ideální bude, když v textu zmíníš
+kouče, který by měl úkol zkontrolovat, pomocí zavináče a jeho přihlašovacího jména.
 
 Všimni si, že každé Issue mé své číslo, které je označeno znakem # za názvem Issue. Například Issue
 na obrázku má číslo 1.
 
-![](images/9.png)
+![](images/9c.png)
+
+Další možností je, že Issue přiřadíš koučovi. To uděláš tak, že v menu vpravo klikneš na ozubené
+kolečko u pole `Assignees` a vybereš daného kouče. Současně vyber i sebe, protože ty budeš možná pracovat na
+úpravě úkolu :-)
+
+![](images/9d.png)
+
+### Oprava úkolu
+
+Kouč nebo lektor ti zadá hodnocení úkolu jako  komentář k Issue. O přidání komentáře budeš informována mailem.
+V textu Issue uvidíš, které úkoly ti kouč uznal a ke kterým měl připomínku. Je-li zadaná připomínka,
+bude pravděpodobně nutné program upravit.
+
+Pokud poznámce nerozumíš, napiš do pole níže komentář o tom, čemu nerozumíš a co potřebuješ vysvětlit.
 
 V PyCharmu uprav svůj program tak, aby vyhovoval připomínce kouče. Poté opět klikni na panel Commit vlevo,
 abys program nahrála na GitHub. Ideální bude, pokud do textového pole dole vložíš číslo Issue spolu se znakem #,
