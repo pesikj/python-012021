@@ -4,7 +4,21 @@ V tomto repozitáři najdeš zadání domácích úkolů k dlouhodobému kurzu P
 který organizují Czechitas.
 
 Rozvrh a úkoly k jednotlivým lekcím najdeš zde:
-* [zadani/Lekce 1](zadani/1/lekce.md)
+* [zadani/Lekce 1](zadani/1/lekce.md).
+
+Úkoly prosím zpracuj do 14 dní od lekce, ke které se vztahují. Nejedná se o striktní pravidlo, ale
+určitě je dobré ho dodržovat, protože některé kapitoly kurzu na sebe navazují a pomůže ti, pokud budeš teorii
+průběžně procvičovat. Navíc se ti práce tolik nenakupí :-) Určitě bys neměla odevzdávat úkol později než 4 týdny po lekci.
+
+Každou lekci dostaneš 5 domácích úkolů a za každý můžeš získat 1 bod. K získání certifikátu musíš kromě docházky získat 60 % bodů
+za domácí úkoly, tj. alespoň 36 bodů.
+
+Některá zadání jsou trochu volná. Pokud si nejsi jistá, jak by měl program vypadat (např. na co se ptát, co vypisovat atd.),
+zkus si představit, jak by měl program vypadat, aby se s ním uživateli dobře pracovalo a aby pro něj byl srozumitelný.
+Současně předpokládej, že uživatel je disciplinovaný a pokud je třeba požádán o číslo, nezkouší zadávat řetězec atd.
+
+Určitě se ale neváhej zeptat kouče nebo lektora, pokud ti nějaké zadání není jasné nebo pokud si s jeho splněním nevíš rady.
+Rádi ti pomůžeme :-)
 
 # Přidání kouče do repozitáře
 
