@@ -26,8 +26,10 @@ jméno a informaci o tom, zda prospěl, neprospěl či prospěl s vyznamenáním
 
 Výstup tvého programu by mohl vypadat např. takto:
 
+```
 Mirek Dušín: Prospěl s vyznamenáním
 Jarka Metelka: Neprospěl
 Jindra Hojer: Prospěl
 Červenáček: Prospěl s vyznamenáním
 Rychlonožka: Prospěl
+```
