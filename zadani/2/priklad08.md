@@ -28,3 +28,13 @@ použití.
 tel_cislo = "+420 734 123 456"
 tel_cislo = tel_cislo.replace(" ", "")
 ```
+
+## Aktualizace
+
+Nemusíte kontrolovat, zda uživatel zadal skutečně číslo, či zda jsou tam i jiné znaky. To jsme
+v kurzu zatím neřešili.
+
+Pokud chcete zkontrolovat předvolbu, stačí využít podmínku `"+420 in cislo`, alternativně můžete využít
+indexy. Můžete využít indexy, Python umožňuje kromě jednoho znaku z řetězce získat i více znaků, a to
+pomocí dvojtečky. Pokud budete chtít získat první čtyři znaky, napište `cislo[0:4]`. Pak můžete vytvořit podmínku
+`cislo[0:4] == "+420"`.
