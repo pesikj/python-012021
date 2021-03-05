@@ -14,6 +14,6 @@ Vytvoř třídu `Auto`, která bude obsahovat informace o autech, které půjčo
 - počet najetých kilometrů,
 - informaci o tom, jestli je vozidlo aktuálně volné (pravdivostní hodnota -- `True` pokud je volné a `False` pokud je vypůjčené).
 
-Vytvoř funkci `__init__` pro třídu `Auto`. Registrační značku, značku a typ vozidla a počet kilometrů získej jako parametry funkce `__init__` a ulož je jako atributy objektu. Poslední atribut nastav jako `False`, tj. na začátku je vozidlo volné.
+Vytvoř funkci `__init__` pro třídu `Auto`. Registrační značku, značku a typ vozidla a počet kilometrů získej jako parametry funkce `__init__` a ulož je jako atributy objektu. Poslední atribut nastav jako `True`, tj. na začátku je vozidlo volné.
 
 Vytvoř objekty, které reprezentují všechny automobily půjčovny.
