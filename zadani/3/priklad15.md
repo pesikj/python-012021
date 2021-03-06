@@ -11,7 +11,7 @@ Mimo tato data je středisko zavřené.
 
 Tvůj program se nejprve zeptá uživatele na datum a počet osob, pro které uživatel chce vstupenky koupit. Uživatel zadá datum ve středoevropském formátu. Převeď řetězec zadaný uživatelem na datum pomocí funkce `datetime.strptime()`. Následně se zeptej na počet osob, 
 
-Pokud by uživatel zadal příjezd mimo otevírací dobu, vypiš, že středisko je v té době uzavřené. Pokud je středisko otevřené, spočítej a vypiš cenu za ubytování.
+Pokud by uživatel zadal příjezd mimo otevírací dobu, vypiš, že letní kino je v té době uzavřené. Pokud je letní kino otevřené, spočítej a vypiš cenu za ubytování.
 
 Data lze porovnávat pomocí známých operátorů `<`, `>`, `<=`, `>=`, `==`, `!=`. Tyto operátory můžeš použít v podmínce `if`. Níže vidíš příklad porovnání dvou dat. Program vypíše text `"První datum je dřívější než druhé datum."`.
 
