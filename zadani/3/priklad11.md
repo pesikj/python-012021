@@ -1,6 +1,6 @@
 # Evidence aut
 
-Vytvoř program pro evidenci aut malé autopůjčovny. Půjčovna má 3 automobily:
+Vytvoř program pro evidenci aut malé autopůjčovny. Půjčovna má 2 automobily:
 
 | Registrační značka | Značka a typ vozidla | Počet najetých kilometrů  |
 | ------------- |-------------| -----:|
