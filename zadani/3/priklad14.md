@@ -16,7 +16,7 @@ Nyní se budeme zabývat platem. Přidej třídě atribut `salary` (výše hrub�
 **Pokročilejší verze:** Pokud máš zájem, můžeš zkusit pokročilejší verzi. Rozlož výpočet do dvou funkcí. Přidej funkci `get_tax()`, která vypočte výši daně, a poté funkci `get_net_salary()`. Výpočet daně bude ve funkci `get_tax()`. Funkce `get_net_salary()` zavolá funkci `get_tax()`, aby zjistila výši daně, a poté vrátí čistou mzdu. Volání funkce proveď pomocí klíčového slova, tj. např.:
 
 ```python
-net_salary = self.salary - get_tax()
+net_salary = self.salary - self.get_tax()
 ```
 
 Bod samozřejmě získáš za obě verze :-)
