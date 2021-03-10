@@ -33,4 +33,6 @@ class Balik:
 
 Zkus nyní vytvořit nějaký objekt ze třídy `Balik` a přiřadit mu náhodně vygenerované jméno příjemce a adresu. Pomocí funkce `get_info()` si nech informace o balíku vypsat.
 
-Pokud by tě zajímalo, jaké další možnosti modul má, můžeš se podívat do jeho [dokumentace](https://faker.readthedocs.io/en/master/index.html).
+## Pokročilejší varianta
+
+Uvažujme nyní společnost, která přepravuje balíky do více zemí. V [dokumentaci](https://faker.readthedocs.io/en/master/index.html) si najdi odstavec Localization. Tam najdeš informaci, že "`faker.Faker` also supports multiple locales". Podívej se, jak je v příkladu vytvořen objekt `Faker` (je použit seznam). Zkus nyní upravit svůj program tak, aby generoval adresy v rámci České i Slovenské republiky. Příslušnou zkratku pro Slovensko najdeš taktéž v [dokumentaci k modulu](https://faker.readthedocs.io/en/master/locales.html).
