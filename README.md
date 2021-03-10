@@ -6,7 +6,8 @@ který organizují Czechitas.
 Rozvrh a úkoly k jednotlivým lekcím najdeš zde:
 * [zadani/Lekce 1](zadani/1/lekce.md),
 * [zadani/Lekce 2](zadani/2/lekce.md),
-* [zadani/Lekce 3](zadani/3/lekce.md).
+* [zadani/Lekce 3](zadani/3/lekce.md),
+* [zadani/Lekce 4](zadani/4/lekce.md).
 
 Úkoly prosím zpracuj do 14 dní od lekce, ke které se vztahují. Nejedná se o striktní pravidlo, ale
 určitě je dobré ho dodržovat, protože některé kapitoly kurzu na sebe navazují a pomůže ti, pokud budeš teorii
