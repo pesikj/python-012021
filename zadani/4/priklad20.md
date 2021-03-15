@@ -23,7 +23,7 @@ Pojďme si modul vyzkoušet. Níže je třída `Balik`, která se podobá tříd
 class Balik:
   def get_info(self):
     print(f"Příjemce balíku: {self.name}")
-    print(f"Balík doručte na adresu: {self.address}")
+    print("Balík doručte na adresu: " + self.address)
 
   def __init__(self, name, address):
     self.name = name
