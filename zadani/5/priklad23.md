@@ -2,6 +2,13 @@
 
 Stáhni si soubor [country_vaccinations.csv](country_vaccinations.csv) o průběhu očkování proti nemoci COVID-19. 
 
+Stažení souboru pomocí `wget`:
+
+```python
+import wget
+wget.download("https://raw.githubusercontent.com/pesikj/python-012021/master/zadani/5/country_vaccinations.csv")
+```
+
 Dále napiš následující dotazy:
 
 * Dotaz na počty očkovaných (sloupec `total_vaccinations`) v jednotlivých státech dne `2021-03-10` (s datem pracuj úplně stejně jako s řetězcem, tj. nevyužívej modeul `datetime`, ale vlož do dotazu přímo řetězec).

@@ -2,6 +2,13 @@
 
 Stáhni si soubor [character-deaths.csv](character-deaths.csv), která obsahuje informace o smrti některých postav z prvních pěti knih románové série Píseň ohně a ledu (A Song of Fire and Ice).
 
+Stažení souboru pomocí `wget`:
+
+```python
+import wget
+wget.download("https://raw.githubusercontent.com/pesikj/python-012021/master/zadani/5/character-deaths.csv")
+```
+
 *Pozn. Úkoly se týkají zcela nevýznamných postav, proto je riziko spoileru minimální :-)*
 
 * Načti soubor do tabulky (DataFrame) a nastav sloupec `Name` jako index.

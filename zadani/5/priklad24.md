@@ -2,6 +2,11 @@
 
 Stáhni si soubor [temperature.csv](temperature.csv), který obsahuje informace o průměrné teplotě v různých městech v **listopadu 2017**.
 
+```python
+import wget
+wget.download("https://raw.githubusercontent.com/pesikj/python-012021/master/zadani/5/temperature.csv")
+```
+
 Vypiš si prvních několik řádků, ať si prohlédneš strukturu tabulky. 
 
 Dále napiš následující dotazy:
