@@ -26,6 +26,6 @@ df["AvgTemperatureCelsia"] = pytemperature.f2c(df["AvgTemperature"])
 
 Nyní můžeš zpracovat následující příklady:
 
-* Dotaz na měření, ve kterých je teplota (sloupec `AvgTemperature`) vyšší než 30 stupňů Celsia.
+* Dotaz na měření, ve kterých je teplota (sloupec `AvgTemperatureCelsia`) vyšší než 30 stupňů Celsia.
 * Dotaz na měření, ve kterých je teplota vyšší než 15 stupňů Celsia a současně bylo měření provedeno v regionu (sloupec `Region`) Evropa (Europe).
 * Dotaz na extrémní hodnoty, tj. měření, ve kterých je teplota vyšší než 30 stupňů Celsia nebo menší než -10 stupňů. Jsou některé hodnoty podezřelé?
