@@ -1,6 +1,6 @@
 # Twilio
 
-Stáhni si soubor [twlo.csv](twlo.csv), který obsahuje informace o vývoji ceny akcie firmy [Twilio](https://www.twilio.com/) od začátku roku 2020. Soubr obsahuje informace o otevírací, minimální, maximální a uzavírací ceně za každý den.
+Stáhni si soubor [twlo.csv](twlo.csv), který obsahuje informace o vývoji ceny akcie firmy [Twilio](https://www.twilio.com/) od začátku roku 2020. Soubor obsahuje informace o otevírací, minimální, maximální a uzavírací ceně za každý den.
 
 Stažení souboru pomocí `wget`:
 

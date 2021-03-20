@@ -1,6 +1,6 @@
 # Hra o trůny
 
-Stáhni si soubor [character-deaths.csv](character-deaths.csv), která obsahuje informace o smrti některých postav z prvních pěti knih románové série Píseň ohně a ledu (A Song of Fire and Ice).
+Stáhni si soubor [character-deaths.csv](character-deaths.csv), který obsahuje informace o smrti některých postav z prvních pěti knih románové série Píseň ohně a ledu (A Song of Fire and Ice).
 
 Stažení souboru pomocí `wget`:
 
