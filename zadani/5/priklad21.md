@@ -10,9 +10,8 @@ wget.download("https://raw.githubusercontent.com/pesikj/python-012021/master/zad
 ```
 
 * Zjisti, kolik má soubor řádek a kolik sloupců.
-* U akcií nás zajímají především nejnovější ceny. Podívej se na poslední řádek souboru.
 * Podívej se na 5 řádků s cenami na začátku souboru, využij k tomu *funkci* `iloc` i funkci `head()`.
-*  Tentokrát využij způsob dle vlastního výběru :-)
+* U akcií nás zajímají především nejnovější ceny. Podívej se na poslední řádek souboru. Tentokrát využij způsob dle vlastního výběru :-)
 
 **Dobrovolný doplněk**
 
