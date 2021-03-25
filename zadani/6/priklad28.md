@@ -1,5 +1,14 @@
 # Státy světa potřetí
 
+```python
+
+import wget
+
+wget.download("https://raw.githubusercontent.com/pesikj/python-012021/master/zadani/6/staty.json")
+wget.download("https://raw.githubusercontent.com/pesikj/python-012021/master/zadani/6/gdp.csv")
+
+```
+
 V souboru [staty.json](staty.json) jsou uložena data s informacemi o státech světa, se kterými jsme již pracovali. Zkusme nyní zpracovat podobné úlohy pomocí `pandas`.
 
 * Načti data ze souboru do tabulky.
