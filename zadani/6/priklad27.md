@@ -1,5 +1,13 @@
 # Projekty
 
+```python
+
+import wget
+
+wget.download("https://raw.githubusercontent.com/pesikj/python-012021/master/zadani/6/vykazy.csv")
+
+```
+
 Pokračuj ve své práci pro softwarovou firmu. Ze souboru [vykazy.csv](vykazy.csv) načti informace o výkazech na projekty pro jednoho vybraného zákazníka.
 
 * Načti data ze souboru a ulož je do tabulky.
