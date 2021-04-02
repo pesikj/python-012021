@@ -1,5 +1,5 @@
 # Histogram platů
-´
+
 Stáhni si znovu soubor [platy_2021_02.csv](platy_2021_02.csv) s informacemi o platech v softwarové firmě, se kterými jsme již pracovali v [příkladu 26](../6/priklad26.md).
 
 ```python
@@ -13,7 +13,7 @@ Načti si tato data do tabulky a vytvoř histogram. Nastav vhodně hranice skupi
 
 ### Dobrovolný doplněk
 
-Vyzkoušej si vytvořit podgrafy. `pandas` a `matplotlib` to umí poměrně jednoduše a to pomocí parametru `by` metody `hist()`. Jako parametr vlož sloupec, podle kterého chceš data do podgrafů rozdělit.
+Vyzkoušej si vytvořit podgrafy. `pandas` a `matplotlib` to umí poměrně jednoduše a to pomocí parametru `by` metody `hist()`. Jako parametr vlož sloupec, podle kterého chceš data do podgrafů rozdělit. Musíš vložit sloupec ve formě dat, nikoli pouze jeho název. 
 
 Vytvoř pro zadaná data podgrafy pro jednotlivá města. Načti si informace o městě, ve kterém jednotliví pracovníci pracují (to jsme již dělali v příkladu) [příkladu 26](../6/priklad26.md). Následně sloupec `mesto` použij na rozdělení podgrafů.
 
