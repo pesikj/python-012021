@@ -2,6 +2,13 @@
 
 Ze souboru [velikonoce.csv](velikonoce.csv) načti data o tom, kolikrát na který datum připadaly Velikonoce v letech 1600 až 2100.
 
+```python
+import wget
+
+wget.download("https://raw.githubusercontent.com/pesikj/python-012021/master/zadani/7/velikonoce.csv")
+
+```
+
 * Vytvoř sloupcový graf, který data přehledně zobrazí. Na ose *x* budou vidět jednotlivá data ("datumy") a výška sloupce označí, kolikrát na daný den připadly Velikonoce.
 
 Tentokrát jsou popisky a titulek povinné :-)
