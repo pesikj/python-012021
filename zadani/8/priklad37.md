@@ -1,7 +1,6 @@
-# Adresy
+# Založení pohledu
 
-V minulém příkladu jsi vytvořila dva pohledy. Nyní uprav soubor `urls.py` u projektu a přidej soubor `urls.py` do aplikace katalog.
+Pokračuj v úpravách projektu, který jsi začal(a) v předchozím příkladě.
 
-- Přiřaď aplikaci `katalog` "podadresu" `katalog`.
-- Pohled `IndexView` by měl být domovskou stránkou aplikace `katalog`, protože by měl být k dispozici na stránce [http://localhost:8000/katalog](http://localhost:8000/katalog).
-- Pohled `SeznamView` by měl být k dispozici na stránce [http://localhost:8000/katalog/seznam/](http://localhost:8000/katalog/seznam/).
+- Přidej do aplikace `katalog` pohled `IndexView`, který bude obsahovat titulní stránku katalogu. Zatím vytvoř pohled tak, aby vracel text: "Zde bude titulní stránka."
+- Přidej druhý pohled `SeznamView`, který na který postupně přidáme seznam aut, která jsou k dispozici. Zatím vytvoř pohled tak, aby vracel text: "Zde bude seznam aut."

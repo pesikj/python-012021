@@ -1,6 +1,6 @@
-# Založení pohledu
+# Založení projektu
 
-Pokračuj v úpravách projektu, který jsi začal(a) v předchozím příkladě.
+Vrátíme se k práci pro autopůjčovnu, které jsme vyvíjeli aplikaci pro terminál. Nyní vytvoříme aplikaci, která již bude umět komunikovat s uživatelem pomocí textového prohlížeče.
 
-- Přidej do aplikace `katalog` pohled `IndexView`, který bude obsahovat titulní stránku katalogu. Zatím vytvoř pohled tak, aby vracel text: "Zde bude titulní stránka."
-- Přidej druhý pohled `SeznamView`, který na který postupně přidáme seznam aut, která jsou k dispozici. Zatím vytvoř pohled tak, aby vracel text: "Zde bude seznam aut."
+- Vytvoř nový Django projekt pojmenovaný `pujcovna`.
+- V projektu vytvoř novou aplikaci `katalog`, který bude obsahovat katalog aut.

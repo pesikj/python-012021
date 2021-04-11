@@ -1,40 +1,34 @@
-# Velikonoce
+# Twilio podruhé
 
-Ze souboru [velikonoce.csv](velikonoce.csv) načti data o tom, kolikrát na který datum připadaly Velikonoce v letech 1600 až 2100.
+Stáhni si soubor [twlo.csv](twlo.csv), který obsahuje informace o vývoji ceny akcie firmy [Twilio](https://www.twilio.com/) od začátku roku 2020. Soubor obsahuje informace o otevírací, minimální, maximální a uzavírací ceně za každý den.
+
+Stažení souboru pomocí `wget`:
 
 ```python
 import wget
-
-wget.download("https://raw.githubusercontent.com/pesikj/python-012021/master/zadani/7/velikonoce.csv")
-
-```
-
-* Vytvoř sloupcový graf, který data přehledně zobrazí. Na ose *x* budou vidět jednotlivá data ("datumy") a výška sloupce označí, kolikrát na daný den připadly Velikonoce.
-
-Tentokrát jsou popisky a titulek povinné :-)
-
-Po zavolání funkce `plot()` si výsledek ulož do proměnné `ax`. Následně zavolej metodu `set_ylabel()`, abys nastavila popisek osy *y* grafu.
-
-```python
-ax = velikonoce.plot()
-ax.set_ylabel("Počet dnů")
-```
-
-**Rozšířené zadání**
-
-Vytvoř si datový soubor sama. Můžeš k tomu využít modul `dateutil`, který při instalaci najdeš pod jménem `python-dateutil`. Následně si zkopíruj kód níže a doplň na místo komentářů příkazy, které prováději požadovanou činnost.
-
-```python
+wget.download("https://raw.githubusercontent.com/pesikj/python-012021/master/zadani/5/twlo.csv")
 
 import pandas
-from dateutil import easter
+import matplotlib.pyplot as plt
 
-data = []
-for rok in # sem doplň funkci range
-  datum = easter.easter(rok)
-  # Naformátuj datum jako řetězec tak, aby obsahovalo jen měsíc a den. Měsíc dej na začátek a za něj den - použij funkci strftime, kterou jsme spolu probírali
-  # Naformátovaný datum ulož do seznamu data
-
-data = pandas.DataFrame(data, columns=["Datum"])
-data = data.groupby("Datum").size()
+twilio = pandas.read_csv("twlo.csv")
 ```
+
+Výše uvedeným programem načti data o vývoji ceny akcie. Vytvoř čárový graf vývoje zavírací ceny akcie (sloupec `Close`) v čase.
+
+Zkus nyní převést sloupec `Date` na typ `datetime` příkazem níže a vytvoř stejný graf jako předtím. Porovnej grafy a zjisti, co se změnilo.
+
+```python
+twilio["Date"] = pandas.to_datetime(twilio["Date"])
+```
+
+### Dobrovolný doplněk
+
+Přidej ke grafům popisky os a titulky. Po zavolání funkce `plot()` si výsledek ulož do proměnné `ax`. Následně zavolej metodu `set_ylabel()`, abys nastavila popisek osy *y* grafu.
+
+```python
+ax = twilio.plot()
+ax.set_ylabel("Cena v dolarech")
+```
+
+Obdobně využij metody `set_title()` a `set_xlabel()` a nastav popisek osy *x* a titulek grafu.
