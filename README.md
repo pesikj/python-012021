@@ -11,7 +11,8 @@ Rozvrh a úkoly k jednotlivým lekcím najdeš zde:
 * [zadani/Lekce 5](zadani/5/lekce.md),
 * [zadani/Lekce 6](zadani/6/lekce.md),
 * [zadani/Lekce 7](zadani/7/lekce.md),
-* [zadani/Lekce 8](zadani/8/lekce.md).
+* [zadani/Lekce 8](zadani/8/lekce.md),
+* [zadani/Lekce 9](zadani/9/lekce.md).
 
 Úkoly prosím zpracuj do 14 dní od lekce, ke které se vztahují. Nejedná se o striktní pravidlo, ale
 určitě je dobré ho dodržovat, protože některé kapitoly kurzu na sebe navazují a pomůže ti, pokud budeš teorii
