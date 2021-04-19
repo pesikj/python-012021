@@ -4,6 +4,6 @@
 - Vyber příslušný request, klikni na něj pravým tlačítkem a vyber možnost `Copy as cURL (bash)`.
 - Otevři si web [https://curl.trillworks.com/](https://curl.trillworks.com/) a převeď cURL příkaz na kód pro modul request.
 
-![Copy As cURL](CopyAscURL.png)
+![Copy As cURL](microservices.png)
 
 - Zkopíruj si kód do svého programu, projdi ho a uprav ho podle svých potřeb.
